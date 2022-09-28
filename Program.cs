@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+//uses Linq to have OrderByDescending to function properly
 using System.Linq;
 using Dealership.Models;
 
@@ -44,7 +45,6 @@ namespace Dealership
         }
       }
 
-      //Cars.Sort();
       // Loop to check if the car matching their budget is displayed using "get" method
       foreach(Car automobile in CarsMatchingSearch)
       {
